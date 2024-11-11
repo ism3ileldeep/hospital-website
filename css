@@ -1,0 +1,176 @@
+/* إعدادات عامة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl; /* دعم اللغة العربية */
+    background-color: #f1f8f6;  /* لون خلفية ناعم وأنيق */
+    color: #333;
+}
+
+/* الهيدر والشريط العلوي للتنقل */
+header {
+    background-color: #2c6b4f;  /* أخضر داكن يتناسب مع الصحة */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6f61;  /* تأثير التمرير بلون دافئ */
+}
+
+/* أقسام الموقع */
+section {
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #2c6b4f;  /* اللون الأخضر الداكن */
+}
+
+/* تنسيق الأزرار */
+button {
+    background-color: #2c6b4f;  /* نفس لون الهيدر */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1a4d36;  /* ظل داكن عند التمرير */
+}
+
+form input, form select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;  /* خلفية مدخلات ناعمة */
+}
+
+form input:focus, form select:focus {
+    border-color: #ff6f61;  /* تغيير لون الحدود عند التركيز */
+    outline: none;
+}
+
+/* تنسيق الخريطة */
+#map iframe {
+    width: 100%;
+    height: 350px;
+    border: none;
+}
+
+/* تذييل */
+footer {
+    background-color: #2c6b4f;  /* نفس لون الهيدر */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* تفاعل مع النصوص */
+p {
+    line-height: 1.6;
+    font-size: 16px;
+    color: #555;
+}
+
+/* تفاعل مع الروابط */
+a {
+    color: #ff6f61;  /* لون جذاب للروابط */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* تغييرات في الهوامش والتباعد */
+section {
+    margin-top: 30px;
+}
+
+/* تحسين تصميم النموذج */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f4f7f6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* خلفية متدرجة ناعمة مع ألوان هادئة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl; /* دعم اللغة العربية */
+    background: linear-gradient(to right, #e0f7fa, #b2dfdb); /* تدرج لوني من الأزرق الفاتح إلى الأخضر الفاتح */
+    color: #333;
+}
+
+/* الهيدر والشريط العلوي للتنقل */
+header {
+    background-color: #2c6b4f;  /* اللون الأخضر الداكن */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6f61;  /* تأثير التمرير باللون الوردي */
+}
+
+/* باقي الأقسام بنفس التنسيق السابق... */
